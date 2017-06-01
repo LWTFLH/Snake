@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		991F13FA1CEEFFFB007E353E /* 贪食蛇.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "贪食蛇.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		991F13FA1CEEFFFB007E353E /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		991F13FE1CEEFFFB007E353E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		991F14001CEEFFFB007E353E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		991F14011CEEFFFB007E353E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		991F13FB1CEEFFFB007E353E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				991F13FA1CEEFFFB007E353E /* 贪食蛇.app */,
+				991F13FA1CEEFFFB007E353E /* Snake.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		991F13F91CEEFFFB007E353E /* 贪食蛇 */ = {
+		991F13F91CEEFFFB007E353E /* Snake */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 991F14111CEEFFFB007E353E /* Build configuration list for PBXNativeTarget "贪食蛇" */;
+			buildConfigurationList = 991F14111CEEFFFB007E353E /* Build configuration list for PBXNativeTarget "Snake" */;
 			buildPhases = (
 				991F13F61CEEFFFB007E353E /* Sources */,
 				991F13F71CEEFFFB007E353E /* Frameworks */,
@@ -109,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = "贪食蛇";
+			name = Snake;
 			productName = "贪食蛇";
-			productReference = 991F13FA1CEEFFFB007E353E /* 贪食蛇.app */;
+			productReference = 991F13FA1CEEFFFB007E353E /* Snake.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 991F13F51CEEFFFB007E353E /* Build configuration list for PBXProject "贪食蛇" */;
+			buildConfigurationList = 991F13F51CEEFFFB007E353E /* Build configuration list for PBXProject "Snake" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				991F13F91CEEFFFB007E353E /* 贪食蛇 */,
+				991F13F91CEEFFFB007E353E /* Snake */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +284,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaorui.NB.---";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Snake;
 			};
 			name = Debug;
 		};
@@ -296,14 +296,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaorui.NB.---";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Snake;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		991F13F51CEEFFFB007E353E /* Build configuration list for PBXProject "贪食蛇" */ = {
+		991F13F51CEEFFFB007E353E /* Build configuration list for PBXProject "Snake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				991F140F1CEEFFFB007E353E /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		991F14111CEEFFFB007E353E /* Build configuration list for PBXNativeTarget "贪食蛇" */ = {
+		991F14111CEEFFFB007E353E /* Build configuration list for PBXNativeTarget "Snake" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				991F14121CEEFFFB007E353E /* Debug */,

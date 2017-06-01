@@ -2,9 +2,6 @@
 //  ViewController.m
 //  贪食蛇
 //
-//  Created by 肖睿 on 16/5/20.
-//  Copyright © 2016年 肖睿. All rights reserved.
-//
 
 #import "ViewController.h"
 #import "GameView.h"
@@ -126,11 +123,34 @@
             _isGameOver = NO;
         } else {
              [_snake start];
+            [self animationTip];
         }
     }
     sender.selected = !sender.selected;
 }
 
+-(void)animationTip{
 
+    UILabel *tip = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 200, 40)];
+    tip.text = @"~~~不服来战~~~";
+    tip.backgroundColor = [UIColor greenColor];
+    tip.layer.cornerRadius = 5;
+    tip.layer.masksToBounds = YES;
+    tip.textAlignment = NSTextAlignmentCenter;
+    tip.center = CGPointMake(self.view.center.x, 90);
+    tip.textColor = [UIColor redColor];
+    [self.view addSubview:tip];
+    [self.view bringSubviewToFront:tip];
+    tip.alpha = 0;
+    [UIView animateWithDuration:1 animations:^{
+        tip.transform = CGAffineTransformMakeScale(2, 2);
+        tip.alpha = 1;
+    } completion:^(BOOL finished) {
+        [UIView animateWithDuration:1 animations:^{
+            tip.transform = CGAffineTransformIdentity;
+           tip.alpha = 0;
+        }];
+    }];
+}
 
 @end
